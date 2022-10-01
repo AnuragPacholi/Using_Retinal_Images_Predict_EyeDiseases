@@ -15,14 +15,10 @@ Normal, Cataract, Diabetic Retinopathy, Glaucoma
 2. [VS Code IDE](https://code.visualstudio.com/)
 3. [Git CLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
 
-## Setup for Python:
+## Setup:
 1. [Install Python](https://www.python.org/downloads/)
-2. Install Python Packages (change current directory accordingly before executing these commands)
-```
-pip install -r training/requirements.txt
-```
-3. Create an environment 'venv' in the api folder using the following command: ```conda create -p venv``` (make sure to change the current directory to api first)
-4. Activate the venv environment using ```activate venv``` and execute the given command: (especially if working with vs code)
+2. Create an environment 'venv' in the api folder using the following command: ```conda create -p venv``` (make sure to change the current directory to api first)
+3. Activate the venv environment using ```activate venv``` and execute the given command: (especially if working with vs code)
 ```
 pip install -r api/requirements.txt
 ```
