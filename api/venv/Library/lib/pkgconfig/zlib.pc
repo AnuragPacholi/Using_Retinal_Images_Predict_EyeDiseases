@@ -1,0 +1,13 @@
+prefix=D:/ANURAG/PROJECTS/retina_images_disease/api/venv/Library
+exec_prefix=D:/ANURAG/PROJECTS/retina_images_disease/api/venv/Library
+libdir=D:/ANURAG/PROJECTS/retina_images_disease/api/venv/Library/lib
+sharedlibdir=D:/ANURAG/PROJECTS/retina_images_disease/api/venv/Library/lib
+includedir=D:/ANURAG/PROJECTS/retina_images_disease/api/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
