@@ -17,13 +17,14 @@ Normal, Cataract, Diabetic Retinopathy, Glaucoma
 
 ## Setup for Python:
 1. [Install Python](https://www.python.org/downloads/)
-2. a. Install Python Packages (change current directory accordingly before executing these commands)
+2. Install Python Packages (change current directory accordingly before executing these commands)
 ```
 pip install -r training/requirements.txt
 ```
-2. b. Activate the venv environment and execute this command. (especially if working with vs code)
+3. Create an environment 'venv' in the api folder using the following command: ```conda create -p venv``` (make sure to change the current directory to api first)
+4. Activate the venv environment using ```activate venv``` and execute the given command: (especially if working with vs code)
 ```
-pip3 install -r api/requirements.txt
+pip install -r api/requirements.txt
 ```
 
 ## Setup for ReactJS:
