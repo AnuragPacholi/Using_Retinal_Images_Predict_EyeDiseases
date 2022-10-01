@@ -16,7 +16,7 @@ Normal, Cataract, Diabetic Retinopathy, Glaucoma
 3. [Git CLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
 
 ## Setup:
-1. [Install Python](https://www.python.org/downloads/)
+1. Open VS Code. Clone this repo. Install Python.
 2. Create an environment 'venv' in the api folder using the following command: ```conda create -p venv``` (make sure to change the current directory to api first)
 3. Activate the venv environment using ```activate venv``` and execute the given command: (especially if working with vs code)
 ```
