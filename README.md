@@ -17,10 +17,10 @@ Normal, Cataract, Diabetic Retinopathy, Glaucoma
 
 ## Setup:
 1. Open VS Code. Clone this repo. Install Python.
-2. Create an environment 'venv' in the api folder using the following command: ```conda create -p venv``` (make sure to change the current directory to api first)
-3. Activate the venv environment using ```activate venv``` and execute the given command: (especially if working with vs code)
+2. Change the current directory to api.
+3. Activate the venv environment using ```activate venv``` and execute the given command:
 ```
-pip install -r api/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Setup for ReactJS:
@@ -28,7 +28,6 @@ pip install -r api/requirements.txt
 2. [Install NPM](https://www.npmjs.com/get-npm)
 3. Install Dependencies (change current directory to frontend)
 ```
-cd frontend
 npm install --from-lock-json
 npm audit fix
 ```
