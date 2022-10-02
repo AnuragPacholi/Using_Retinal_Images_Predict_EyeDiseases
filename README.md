@@ -1,6 +1,5 @@
 # Using_Retinal_Images_Predict_EyeDiseases
 
-## About the project:
 1. In this projet I have detected eye diseases using retinal images. The model will predict an output from the following classes:
 ```
 Normal, Cataract, Diabetic Retinopathy, Glaucoma
